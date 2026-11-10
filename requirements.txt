@@ -1,0 +1,11 @@
+# Proje WSL2 (Ubuntu) + NVIDIA GPU üzerinde çalışır.
+# Önerilen kurulum (conda): bash wsl_rapids_kurulum.sh
+# pip ile kurulum:
+--extra-index-url https://pypi.nvidia.com
+cuml-cu12==26.10.*
+cudf-cu12==26.10.*
+pandas
+scipy
+statsmodels
+matplotlib
+seaborn
